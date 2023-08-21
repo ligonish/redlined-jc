@@ -1,0 +1,119 @@
+---
+title: "How Does Historic District Designation Impact Redlined Neighborhoods?"
+subtitle: "A Case Study of Jersey City, NJ"
+output:
+  tufte::tufte_html: default
+---
+Sarah Ligon\
+March 2023\
+
+Project R code at [github.com/ligonish/redlined-jc](https://github.com/ligonish/redlined-jc) .
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(warning = FALSE, message = FALSE)
+library(tufte)
+```
+
+```{r, echo = FALSE, fig.fullwidth = TRUE}
+knitr::include_graphics("img/redline_proj_title_img.png")
+```
+
+# Background
+
+`r newthought('In 1939, the federal Home')` Owners’ Loan Corporation (HOLC) redlined almost every neighborhood in Jersey City as ineligible for home loans, barring future generations of the city’s predominantly Black, brown, and immigrant population from access to mortgages and housing stability. 
+
+```{r echo = FALSE, fig.cap = "A typical HOLC agent description of a Jersey City Waterfront neighborhood, 1939. Source: [*Mapping Inequality*](https://dsl.richmond.edu/panorama/redlining/#loc=11/40.631/-74.078&city=hudson-co.-nj)"}
+knitr::include_graphics("img/holc_1939_description.png")
+```
+
+Twenty years later, the results were already evident: according to Kenneth Jackson's *Crabgrass Frontier*, “Hudson County residents received only twelve dollars of [FHA Home] mortgage per capita through 1960, the second lowest county total in the nation after the Bronx”.^[Jackson, K. (1985). *Crabgrass frontier: The suburbanization of the United States.* Oxford University Press. See p. 202.] By 1968, the Kerner Commission reported white Jersey City homeownership rates 150% higher than those of Black residents (whom it also noted were already experiencing significantly higher levels of rent burden than white Jersey City residents).^[Kerner Commission. (1968). [*Report of the National Advisory Commission on Civil Disorders.*](https://www.hud.gov/sites/dfiles/FHEO/documents/kerner_commission_full_report.pdf) Washington, D.C.: Government Printing Office. See p. 338.]
+
+Today, few people in Jersey City own their homes. Instead, over 70% are renters — a [figure](https://data.census.gov/table?q=B25003:+TENURE&g=010XX01US_160XX00US0667000,3436000,3651000&tid=ACSDT5Y2021.B25003) significantly higher than that of New York City (66.8%) or San Francisco (61.8%), and nearly twice the average of urban areas nationwide.
+
+```{r, echo = FALSE}
+knitr::include_graphics("img/jc_vs_cities_tenure.png")
+```
+
+[Almost half (47%) of Jersey City tenants](https://data.census.gov/table?q=DP04:+SELECTED+HOUSING+CHARACTERISTICS&g=160XX00US3436000&tid=ACSDP1Y2021.DP04) are also cost-burdened by HUD standards, charged more than 30% of every paycheck in rent. This year, the Jersey City Housing Authority [reports](https://www.jerseycityha.org/_files/ugd/e9e5c0_6570c14c100e4b2082684143b2395105.pdf) there are “nearly 15,000 Jersey City households earning between 0% and 30% of the median family income and only 7,310 housing units affordable for these households”. The agency’s public housing waitlist has been closed since 2018, and is 22,855 qualified families long. 
+
+```{r fig.margin = TRUE, echo = FALSE}
+knitr::include_graphics("img/jc_race_inc.png")
+```
+
+More than half of those waiting families [are Black.](https://www.jerseycityha.org/_files/ugd/e9e5c0_6570c14c100e4b2082684143b2395105.pdf) Jersey City is starkly spatially segregated by both race and wealth; in 2021, median incomes in both Black and Hispanic/Latinx Jersey City households averaged [less than half](https://data.census.gov/table?q=S1903:+MEDIAN+INCOME+IN+THE+PAST+12+MONTHS+(IN+2021+INFLATION-ADJUSTED+DOLLARS)&g=160XX00US3436000&tid=ACSST5Y2021.S1903) those of their white neighbors.
+
+The latter cluster in Jersey City’s wealthy Downtown district, a glossy stretch of waterfront high-rises and brownstownes nicknamed the “Gold Coast” by real estate speculators and separated by Route 78 from longtime neighborhoods of color to the west. 
+
+```{r echo = FALSE, fig.fullwidth = TRUE, fig.cap = "In July 2022, the *New York Times* reported Jersey City rents had become [more expensive](https://www.nytimes.com/2022/07/28/realestate/which-city-is-most-expensive-for-renters-you-might-be-surprised.html) than any other city's in the nation."}
+knitr::include_graphics("img/jc_inc_disp.png")
+```
+
+But in 1939, the “Gold Coast”, too, was uniformly redlined ‘Hazardous’. What interim policy decisions caused some of Jersey City’s “D”-graded neighborhoods to diverge so dramatically, eighty years on, leaving others with few city amenities beyond that of literal condemnation?
+
+# Research Contexts: Redlining, Historic Districts, & Racial Zoning
+
+A robust body of research links this kind of housing shortfall, racial stratification, and income inequity directly to redlining.  While contemporary census tract boundaries do not fit perfectly over those used by HOLC eight decades earlier, the University of Richmond’s spatial data layers make it possible to isolate 2020-era tracts whose geographic boundaries contain at least 50% formerly-redlined area. The National Community Reinvestment Coalition analyzed such tracts in 140 cities across the United States, finding that 74% of neighborhoods the HOLC graded “D” eighty years ago are low-to-moderate income today, and  64% are “minority neighborhoods”; they also found “significantly greater economic inequality in cities where more of the HOLC-graded ‘Hazardous’ areas are currently minority neighborhoods”.^[Mitchell, B., & Franco, J. (2018, March 20). [*HOLC "Redlining": The persistent structure of segregation and economic inequality*]((https://ncrc.org/wp-content/uploads/dlm_uploads/2018/02/NCRC-Research-HOLC-10.pdf))] The Brookings Institute used similar methodology on even more finely-grained block group estimates, concluding that formerly-redlined blocks on average contain “higher Black and minority shares of population than the remainder of the city … lower median household income, lower home values, older housing stock, and rents which are lower in absolute terms (but often higher as a percentage of income).”^[Perry, A. M., & Harshbarger, D. (2019, October 14). [*America's formerly redlined neighborhoods have changed, and so must solutions to rectify them.*](https://www.brookings.edu/research/americas-formerly-redlines-areas-changed-so-must-solutions/)] 
+
+```{r fig.margin = TRUE, echo = FALSE}
+knitr::include_graphics("img/redlined_tracts.png")
+```
+
+```{r fig.margin = TRUE, echo = FALSE}
+knitr::include_graphics("img/redlined_hist_tracts.png")
+```
+
+A less-discussed avenue that policymaker maps impact neighborhood racial equity, albeit one highly relevant in Jersey City’s local context,^[New Jersey Historic Trust & Rutgers University Center for Urban Policy Research. (1997, December). [*Economic impacts of historic preservation.*](https://www.nj.gov/dca/njht/documents/publ/ec_imp.pdf)] is that of historic districting. The first urban zoning ordinance in the nation to designate a protected historic district --- in Charleston, South Carolina --- did so explicitly to skirt federal prohibitions against racial zoning; the plan “delineated separate residential districts for Blacks and Whites”, and “testimony of local preservationists indicates that displacement of Blacks from the historic area was one of the implicit goals” of the ordinance.^[Silver, C. (1997). The racial origins of zoning in American cities. In *Urban Planning and the African American Community: In the Shadows.* (pp. 23-42). Sage Publications.] More recently, NYU’s Furman Center [found](https://furmancenter.org/files/NYUFurmanCenter_HistoricDistrictsBrief_7MAR2016.pdf) that “63 percent of [New York City] residents in tracts mostly covered by historic districts were white, compared with 30 percent in tracts not at all covered by a historic district”. Furman’s director, Ingrid Gould Ellen, published a separate analysis further concluding that historic districts develop significantly greater concentrations of higher-income and college-educated residents in the years after historic designation.^[Gould Ellen, I., & McCabe, B. J. (2016, Spring). Does preservation accelerate neighborhood change? *Journal of the American Planning Association,* 82(2), 134-146.] Edward Glaeser’s study of New York City historic designation [draws starker conclusions](https://www.city-journal.org/html/preservation-follies-13279.html), finding that “over the entire 1980–2002 period, [condo] prices each year rose $6,000 more in historic districts than outside them”. 
+
+Between 1977 and 1982, Jersey City designated four such districts across in overlapping census tracts near its waterfront, blanketing all of the Downtown square footage the Home Owner’s Loan Corporation had marked “D” for “hazardous” forty years before.
+
+In 1970, thirty years after the HOLC colored it red, Downtown’s “hazardous” census tracts closely resembled the rest of the city’s redlined neighborhoods in variables household income and proportion of Black homeowners --- but rapidly lost those homeowners (while diverging into much wealthier, much whiter enclaves) after Jersey City re-mapped them as historic preservation districts.
+
+![](img/pct_bl_after_historic.png)
+
+# Methods
+
+To scratch some surfaces of how people in Jersey City’s formerly redlined neighborhoods have been impacted by redlining decades after the HOLC drew those maps, I:
+
+1. Downloaded the *Mapping Inequality* project’s Hudson County redlining polygon layer^[Normalized to the NJ State Plane coordinate reference system (NAD83), which calculates length in feet and thus area in square feet.] and calculated its area overlap with standard 2020-era TIGER/Line U.S. census tracts (see Github repository for detailed R code). 
+1.  Assigned each of Jersey City’s 77 census tracts a majority HOLC grade corresponding to whichever of “B”, “C”, or “D” had been assigned to more than 50% of its modern-day square footage in 1939. 
+1.  Designated all tracts whose majority was red (D, “Hazardous”) and/or yellow (C, “Definitely Declining) as “Redlined”.
+1.  Repeated the process using Jersey City's locally-designated-historic-district spatial layer to identify redlined tracts whose majority was later zoned historic.
+1. Downloaded decennial U.S. Census estimates for redlined Jersey City census tracts from 1970 - 2010 using Geolytics’ “Neighborhood Change Database”, which normalizes decennial census summary files to modern TIGER/Line census-tract boundaries. I also imputed ACS 5-year estimates in place of 2020 decennial data, since those decennial estimates have not as of March 2023 been released.^[Don’t do as I do! — decennial and 5-year estimates are highly noncomparable, but spark further curiosity for when the 2020 decennial comes out later this spring.] 
+
+# Findings
+
+A standard “Limitations” section for this project would take up more words than all the rest of it — patterns apparent in the following quick summary analysis are emphatically neither causal nor statistically robust — but they're still fascinating, with as much scope for qualitative, community-powered narrative research as for more granular statistical modelling. 
+
+
+```{r fig.margin = TRUE, echo = FALSE}
+knitr::include_graphics("img/table_1.png")
+```
+
+Much like other, more detailed studies, this project’s comparisons of 2020 housing, race, and income estimates between Jersey City’s 51 redlined tracts and 26 un-redlined tracts suggested a consistent gap between the two, eighty years after redlining. 
+
+In 2020, Jersey City median household income was almost $15,000 dollars higher in tracts that the HOLC had *not* barred from home loans back in 1939. The average population of formerly redlined tracts was approximately 13% Black, but almost half that in non-redlined neighborhoods (where Black residents make up about 7% of the tract). Proportions of Black, white, and Latinx homeownership differed by a maximum of about four percentage points between averaged redlined and non-redlined areas of Jersey City, and the differences in tenure overall were comparatively slight — the average redlined census tract contained about 28% homeowners, while the average non-redlined tract held a slightly higher number, at about 30%. 	
+
+![](img/table_2.png)
+While the scope of this study does not permit extensive statistical analyses of variance between redlined and non-redlined census tracts (at minimum, one would need to source and include a rigorous set of control variables to account for the many factors that go into Jersey City’s racial and income disparities), it’s nonetheless immediately clear to anyone familiar with the city that its formerly-redlined districts are not uniform. The median household income across Jersey City’s five locally-designated historic districts is nearly double that of the rest of the city’s non-designated tracts, and four of the five are clustered in a blanket over all of Jersey City’s currently affluent, formerly “Hazardous” census tracts.
+
+![](img/rent_burden_hist_nonhist.png)
+
+Even at a basic summary-statistic level, without running any testing for causal inference, splitting Jersey City’s redlined census tracts into historically-designated and non-historically designated subsets exposes a clear racial and income equity gap among redlined Jersey City neighborhoods themselves. This was first apparent when looking at contemporary 2020 5-year American Community Survey estimates of tenure, income, race averages across redlined tracts. 
+
+![](img/income_after_hist.png)
+
+After subsetting for differences in historic designation, a substantial income gap develops within neighborhoods graded “C” or “D”; as noted above, citywide median income is about \$15,000 lower in formerly redlined tracts than those that were not redlined — but redlined and historically designated tract households make on average $76,000 more per year than in redlined, but not historic-districted, neighborhoods of Jersey City. 
+
+![](img/tenure_oo.png)
+
+If we use redlining alone to measure differences in housing tenure by race across the city, 2020 tract averages show about 30 more white homeowner households and ten fewer Black homeowner households in redlined than non-redlined neighborhoods. When comparing historically-designated tracts within redlined areas, however, that gap widens significantly: redlined *and* historically-districted Jersey City census tracts average 152 more white households, and 37 fewer Black households, than redlined tracts in the rest of the City.
+
+![](img/tenure_rent.png)
+
+Interestingly, this project’s analysis of census estimates for median year housing was built indicates that, among formerly “D”-graded Jersey City census tracts, housing is actually 17 years older when a tract is not historically districted than when it’s “D”-graded but then designated historic. Tenure aside, population proportions of Black and white Jersey City residents in redlined tracts differ substantially when those tracts are also historically-districted. Black residents account for roughly 13% of the population of redlined census tracts across Jersey City, on average; in redlined but also historically-districted tracts, Black Jersey Citian’s numbers drop to 7%, while the proportion of white residents jumps from less than 20% to over 40%.
+
+# What's Next?
+
+Many exogenous factors correlate with historic districting but are not reflected in this summary analysis. Key among these is Jersey City’s parallel record of targeting Black and brown redlined districts farther from the water and from public transportation for densely segregated, densely Black, brown, and low-income public housing projects. At the same time that City Hall designated HOLC-”hazardous” Downtown neighborhoods as historic preservation districts, it designated similarly-redlined tracts as “in need of urban renewal” (clearing a path for the city to displace Black residents via eminent domain). As suggested by Christopher Silver and other scholars above, then, historic districting effectively continued the racial zoning that redlining began: eliminating non-white residents from some blocks via exclusionary historic zoning, and others via demolition. 
+
+By 1984, when all of Downtown’s historic districts had been designated, the United States Commission on Civil Rights reported to Washington, D.C. that “due to revitalization occurring in downtown neighborhoods, other areas in Jersey City have received an influx of displacement causing overcrowding and under-maintenance … the housing market is tight in this city, and most potential displacees desire to remain”.^[Kerner Commission. (1968). [*Report of the National Advisory Commission on Civil Disorders.*](https://www.hud.gov/sites/dfiles/FHEO/documents/kerner_commission_full_report.pdf) Washington, D.C.: Government Printing Office. See p. 198.]  For the disproportionate equity implications of historic districting policy on people in previously redlined districts to become clear enough to inform future policy, far more rigorous causal inference models would need to include spatial indicators for Jersey City’s redevelopment plans, segregated public housing construction (and subsequently extensive demolition and resident displacement). More importantly, any such models would need to function as secondary support to qualitative, grassroots-up participatory action research from multiple generations of people with knowledge of complex patterns underneath these dataset’s static digital variables. Redlining’s long-term impacts can have highly localized, regionalized variance, and further study of those  impacts are urgently necessary as Jersey City continues rapid neighborhood change.  

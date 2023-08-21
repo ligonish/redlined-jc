@@ -1,0 +1,2411 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20220211</pubdate>
+                <title>Municipal Boundaries of New Jersey</title>
+                <geoform>vector digital data</geoform>
+                <pubinfo>
+                    <pubplace/>
+                    <publish>NJ Office of Information Technology, Office of GIS (NJOGIS)</publish>
+                </pubinfo>
+                <onlink>https://services2.arcgis.com/XVOqAjTOJ5P6ngMu/arcgis/rest/services</onlink>
+                <onlink>https://njgin.nj.gov/njgin/edata/boundaries/index.html#!/</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>This data set is a spatial representation of municipalities in New Jersey developed by the NJ Office of Information Technology, Office of GIS (NJOGIS) in NJ State Plane Coordinate System (NAD83). It is not a survey document and must not be used as such. The polygons delineated in this data set do not represent legal boundaries. This data set improves upon previous versions of municipal boundaries through the integration of coincident features from several high quality source data sets, as a component of the NJOGIS statewide Parcels Normalization Project concluded in March 2010. Updates continue to be made as necessary.</abstract>
+            <purpose>To provide basic jurisdictional information. This data set was developed to produce the most accurate delineation of municipal boundaries achievable from existing data sources.  &#13;
+&#13;
+Any service user who would like to be notified of future layer definition changes or outages should register with the New Jersey Geospatial Forum Email listserv.</purpose>
+            <supplinf>Spatially referenced data were derived from the following GIS data sets to build municipal boundaries. They include: Delaware Geological Survey - New Jersey/Delaware boundary data New Jersey Department of Agriculture, State Agricultural Development Committee, Farmland Preservation Program - preserved farmland boundary data from property surveys New Jersey Department of Environmental Protection, Green Acres Program - open space boundary data from property surveys New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - New Jersey/New York boundary data for Ellis Island New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - hydro (stream) centerline data New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - land use/landcover data New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - municipal boundaries data from US Geological Survey topographic maps New Jersey Department of Environmental Protection, New Jersey Geological Survey - New Jersey/New York boundary data for the northern border of New Jersey, and New Jersey/New York boundary data through Shooters Island off the shoreline of Bayonne New Jersey Department of Transportation - road centerline data NJ Office of Information Technology, Office of GIS (NJOGIS) - New Jersey/Pennsylvania boundary data, and river and bay outlet data Various county or municipal agencies - State-certified digital tax map data and digital parcel data</supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20220211</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>publication date</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>Irregular</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-75.587089</westbc>
+                <eastbc>-73.899178</eastbc>
+                <northbc>41.357813</northbc>
+                <southbc>38.924577</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>minor civil divisions</themekey>
+                <themekey>municipality</themekey>
+                <themekey>municipalities</themekey>
+                <themekey>counties</themekey>
+                <themekey>village</themekey>
+                <themekey>county</themekey>
+                <themekey>township</themekey>
+                <themekey>boundary</themekey>
+                <themekey>town</themekey>
+                <themekey>borough</themekey>
+                <themekey>city</themekey>
+                <themekey>municipal</themekey>
+                <themekey>boundaries</themekey>
+                <themekey>Administrative boundary</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>boundaries</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>USA</placekey>
+                <placekey>NJ</placekey>
+                <placekey>New Jersey</placekey>
+            </place>
+        </keywords>
+        <accconst>Other Constraints</accconst>
+        <useconst>The data layer is not survey data and must not be used as survey data. See the balance of this metadata record for conditions that limit appropriate uses. Users are urged to look at this documentation to assess the fitness of the data for any planned use.Acknowledgement of the provider, NJ Office of Information Technology, Office of GIS (NJOGIS), is requested for maps, data or other products derived from these data. The State of New Jersey makes great effort to provide secure, accurate, and complete data and metadata. However, portions of the data and metadata may be incorrect or not current. Any errors or omissions should be reported for investigation. The State of New Jersey, its officers, employees or agents shall not be liable for damages or losses of any kind arising out of or in connection with the use or performance of data and metadata, including but not limited to, damages or losses caused by reliance upon the accuracy or timeliness of any such data and metadata, or damages incurred from the viewing, distributing, or copying of those materials. The data and metadata are provided "as is." No warranty of any kind, implied, expressed, or statutory, including but not limited to the warranties of non-infringement of third party rights, title, merchantability, fitness for a particular purpose, and freedom from computer virus, is given with respect to the data and metadata, or its hyperlinks to other Internet resources. The State disclaims any duty or obligation either to maintain availability of or to update the data and metadata. All web site data distribution by NJOGIS is, in addition, subject to the Conditions of Use for State of New Jersey executive branch web sites, listed on the State’s Legal Statement &amp;amp; Disclaimers page https://www.nj.gov/nj/legal.html .</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                    <cntper>Patrick McDonald, GISP</cntper>
+                </cntorgp>
+                <cntpos>Supervisor, Spatial Data Development</cntpos>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>PO Box 212</address>
+                    <city>Trenton</city>
+                    <state>NJ</state>
+                    <postal>08625-0212</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>609-376-7552</cntvoice>
+                <cntemail>Patrick.McDonald@tech.nj.gov</cntemail>
+                <hours>M - F, 9am - 5pm</hours>
+                <cntinst>Email is preferred.</cntinst>
+            </cntinfo>
+        </ptcontac>
+        <datacred>Delaware Geological Survey - New Jersey/Delaware boundary data through the Delaware River within the 12 mile circle centered on the old New Castle County Courthouse (Used prior to 1881)
+
+New Jersey Department of Agriculture, State Agricultural Development Committee, Farmland Preservation Program - preserved farmland boundary data from property surveys New Jersey Department of Environmental Protection, Green Acres Program - open space boundary data from property surveys
+
+New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - New Jersey/New York boundary data for Ellis Island
+
+New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - hydro (stream) centerline data
+
+New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - land use/landcover data
+
+New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems - municipal boundaries data from US Geological Survey topographic maps
+
+New Jersey Department of Environmental Protection, New Jersey Geological Survey - New Jersey/New York boundary data for the northern border of New Jersey, and New Jersey/New York boundary data through Shooters Island off the shoreline of Bayonne
+
+New Jersey Department of Transportation - road centerline data
+
+NJ Office of Information Technology, Office of GIS (NJOGIS) - New Jersey/Pennsylvania boundary data, and river and bay outlet data
+
+Various county or municipal agencies - State-certified digital tax map data and digital parcel data</datacred>
+        <secinfo>
+            <secsys>ArcGIS</secsys>
+            <secclass>Unclassified</secclass>
+            <sechandl>no special handling required</sechandl>
+        </secinfo>
+        <native>Esri ArcGIS 10.7.1</native>
+    </idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>Values in the MUN_CODE field were populated based on the NJ1040 codes. The ACRES and SQ_MILES fields were recalculated based on SHAPE_AREA. In addition, POPDEN2020, POPDEN2010, POPDEN2000, POPDEN1990, and POPDEN1980 were recalculated based on the updated number of square miles in the SQ_MILES field. All municipal name changes are current to January 2022. Attributes for Geographical Naming Information System (GNIS) codes and names were thoroughly reviewed in collaboration with Bureau of Geographic Names - US Geological Survey and US Census Bureau representatives. No formal accuracy testing was performed to qualify or validate attribute data. All other attribute information was carried over from the previous NJDEP municipality boundaries (stmun) layer.
+
+QA/QC proceedures are run to find inaccuracies.  Acres, square miles and pupoluation density fields are re-calculated prior to any publication to update these fields after any revisions.</attraccr>
+        </attracc>
+        <logic>Polygons were built from the NJOGIS Municipal Boundaries of New Jersey (nj_munis_arcs) line data set using the default cluster tolerance of 0.003 US survey feet. Municipalities with multiple disconnected areas were created as multi-part polygons. A spatial join was created with the centroids of the previous NJDEP municipality boundaries (stmun) layer as a quality control check. An examination of the attribute table ensured that each polygon contained a single centroid and any errors were resolved. A topology rule set was also built to ensure there were no gores (gaps) or overlaps between polygons.</logic>
+        <complete>All 564 New Jersey municipalities are included.</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>Horizontal positional accuracy used to generate municipal boundaries varies by source data used to create the NJOGIS Municipality Boundaries of New Jersey data set. No formal horizontal positional accuracy testing was performed to qualify or validate these data. Data were visually inspected.
+
+Boundary locations are reviewed against tax maps, parcels and base map data for accuracy.</horizpar>
+            </horizpa>
+        </posacc>
+        <lineage>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20060601</pubdate>
+                        <title>NJDEP 2002 Streams Update for New Jersey (DRAFTS)</title>
+                    </citeinfo>
+                </srccite>
+                <srcscale>2400</srcscale>
+                <typesrc>onLine</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20020101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>ground condition</srccurr>
+                </srctime>
+                <srccitea>NJDEP 2002 Streams Update for New Jersey (DRAFTS)</srccitea>
+                <srccontr>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems hydro (stream) centerline data.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20070501</pubdate>
+                        <title>SADC Preserved Farmland</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>onLine</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20070501</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>ground condition</srccurr>
+                </srctime>
+                <srccitea>SADC Preserved Farmland</srccitea>
+                <srccontr>New Jersey Department of Agriculture, State Agricultural Development Committee, Farmland Preservation Program preserved farmland boundary data from property surveys.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20080401</pubdate>
+                        <title>Domestic Names - State and Topical Gazetteer Download Files</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>onLine</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20080401</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>Domestic Names - State and Topical Gazetteer Download Files</srccitea>
+                <srccontr>United States Board on Geographic Names, United State Geological Survey GNIS civil codes and names</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20070423</pubdate>
+                        <title>NJ_Roadway_Network</title>
+                    </citeinfo>
+                </srccite>
+                <srcscale>2400</srcscale>
+                <typesrc>onLine</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20060101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>ground condition</srccurr>
+                </srctime>
+                <srccitea>NJ_Roadway_Network</srccitea>
+                <srccontr>New Jersey Department of Transportation road centerline data.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20070206</pubdate>
+                        <title>2002 Landuse/Landcover by Watershed Management Area (WMA)</title>
+                    </citeinfo>
+                </srccite>
+                <srcscale>12000</srcscale>
+                <typesrc>onLine</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20020101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>ground condition</srccurr>
+                </srctime>
+                <srccitea>2002 Landuse/Landcover by Watershed Management Area (WMA)</srccitea>
+                <srccontr>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems land use/landcover data.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20040101</pubdate>
+                        <title>2002 Delaware State Outline (line)</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>onLine</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>19350101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>ground condition</srccurr>
+                </srctime>
+                <srccitea>2002 Delaware State Outline (line)</srccitea>
+                <srccontr>Delaware Geological Survey New Jersey/Delaware boundary delineated from descriptions in a 1934-1935 Court Decree of the US Supreme Court.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20071114</pubdate>
+                        <title>NJDEP Municipality Boundaries for the State of New Jersey</title>
+                    </citeinfo>
+                </srccite>
+                <srcscale>24000</srcscale>
+                <typesrc>onLine</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <rngdates>
+                            <begdate>19870101</begdate>
+                            <enddate>20080101</enddate>
+                        </rngdates>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>NJDEP Municipality Boundaries for the State of New Jersey</srccitea>
+                <srccontr>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems municipal boundaries data digitized from various US Geological Survey topographic maps.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>19990101</pubdate>
+                        <title>Ellis Island: New Jersey/New York Jurisdictional Boundary Line</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>onLine</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>18570101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>ground condition</srccurr>
+                </srctime>
+                <srccitea>Ellis Island: New Jersey/New York Jurisdictional Boundary Line</srccitea>
+                <srccontr>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems data representing the New Jersey/New York boundary for Ellis Island delineated from an 1857 US Coast Survey Map.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20070101</pubdate>
+                        <title>New Jersey Department of Environmental Protection, New Jersey Geological Survey New Jersey/New York boundary data</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>onLine</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20070101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>New Jersey Department of Environmental Protection, New Jersey Geological Survey New Jersey/New York boundary data</srccitea>
+                <srccontr>New Jersey Department of Environmental Protection, New Jersey Geological Survey data of the New Jersey/New York boundary for the northern border of New Jersey from boundary marker survey points, or the New Jersey/New York boundary through Shooters Island off the shoreline of Bayonne from turning points through the Kill Van Kull.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>20061001</pubdate>
+                        <title>Green Acres Open Space</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>onLine</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20060101</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>publication date</srccurr>
+                </srctime>
+                <srccitea>Green Acres Open Space</srccitea>
+                <srccontr>New Jersey Department of Environmental Protection, Green Acres Program open space boundary data from property surveys.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <title>Statewide Road Centerlines for New Jersey (Next Generation 9-1-1 Format)</title>
+                    </citeinfo>
+                </srccite>
+                <typesrc>None</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>20220118</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>data extraction date</srccurr>
+                </srctime>
+                <srccitea>Statewide Road Centerlines for New Jersey (Next Generation 9-1-1 Format)</srccitea>
+                <srccontr>NJOGIS comprehensive statewide road centerline data</srccontr>
+            </srcinfo>
+            <procstep>
+                <procdesc>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems hydro (stream) centerline data were used as a primary data source. These data were derived from NJ Office of Information Technology, Office of GIS (NJOGIS) 2002 orthophotography (+/-4 feet). Hydro centerlines were integrated where known to be coincident with municipal boundaries as shown on municipal tax maps.</procdesc>
+                <procdate>20070101</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Steve Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>800 S White Horse Pike, PO Box 579</address>
+                            <city>Hammonton</city>
+                            <state>NJ</state>
+                            <postal>08037-2019</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>(800) 924-0482</cntvoice>
+                        <cntfax>(609) 704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                        <hours>8-5</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>New Jersey Department of Transportation road centerlines data were used as a primary data source. These data were derived from NJ Office of Information Technology, Office of GIS (NJOGIS) 2002 orthophotography (+/-4 feet). Road centerlines were integrated where known to be coincident with municipal boundaries as shown on municipal tax maps.</procdesc>
+                <procdate>20070201</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Steve Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>800 S White Horse Pike, PO Box 579</address>
+                            <city>Hammonton</city>
+                            <state>NJ</state>
+                            <postal>08037-2019</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>(800) 924-0482</cntvoice>
+                        <cntfax>(609) 704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                        <hours>8-5</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>New Jersey Department of Environmental Protection, Green Acres Program open space boundary data were used as a primary data source. These data were derived from Green Acres open space property surveys. Survey boundaries were integrated where known to be coincident with municipal boundaries as shown on municipal tax maps.</procdesc>
+                <procdate>20070301</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Steve Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>800 S White Horse Pike, PO Box 579</address>
+                            <city>Hammonton</city>
+                            <state>NJ</state>
+                            <postal>08037-2019</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>(800) 924-0482</cntvoice>
+                        <cntfax>(609) 704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                        <hours>8-5</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>New Jersey Department of Agriculture, State Agricultural Development Committee, Farmland Preservation Program preserved farmland boundary data were used as a primary data source. These data were derived from Farmland Preservation preserved farmland property surveys. Survey and non-survey (some municipal boundary lines were not mapped as survey lines) boundaries were integrated where known to be coincident with municipal boundaries as shown on municipal tax maps.</procdesc>
+                <procdate>20070401</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Steve Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>800 S White Horse Pike, PO Box 579</address>
+                            <city>Hammonton</city>
+                            <state>NJ</state>
+                            <postal>08037-2019</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>(800) 924-0482</cntvoice>
+                        <cntfax>(609) 704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                        <hours>8-5</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems land use/landcover data were used as a primary data source. These data were derived from NJ Office of Information Technology, Office of GIS (NJOGIS) 2002 orthophotography (+/-4 feet). Land use/landcover delineations were used to represent municipal boundaries coincident with shorelines.</procdesc>
+                <procdate>20070501</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Steve Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>800 S White Horse Pike, PO Box 579</address>
+                            <city>Hammonton</city>
+                            <state>NJ</state>
+                            <postal>08037-2019</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>(800) 924-0482</cntvoice>
+                        <cntfax>(609) 704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                        <hours>8-5</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>New Jersey Department of Environmental Protection, New Jersey Geological Survey boundary data for the northern border of New Jersey and through Shooters Island, off the shoreline of Bayonne, were used as primary data sources. Survey points were used to delineate the New Jersey/New York boundary for the northern border of the state. Turning points through the Kill Van Kull were used to delineate the New Jersey/New York boundary through Shooters Island.</procdesc>
+                <procdate>20070601</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Steve Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>800 S White Horse Pike, PO Box 579</address>
+                            <city>Hammonton</city>
+                            <state>NJ</state>
+                            <postal>08037-2019</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>(800) 924-0482</cntvoice>
+                        <cntfax>(609) 704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                        <hours>8-5</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Delaware Geological Survey boundary data for segments of the New Jersey/Delaware border were used as a primary data source. Boundary, boundary monument, and boundary reference monument positions were calculated at the 1934 mean low water line along the New Jersey shoreline from descriptions in a 1934/1935 United States Supreme Court Decree. These data were used to represent municipal boundaries coincident with shorelines as shown on municipal tax maps.</procdesc>
+                <procdate>20070701</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Steve Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>800 S White Horse Pike, PO Box 579</address>
+                            <city>Hammonton</city>
+                            <state>NJ</state>
+                            <postal>08037-2019</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>(800) 924-0482</cntvoice>
+                        <cntfax>(609) 704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                        <hours>8-5</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems data representing the New Jersey/New York boundary for Ellis Island were used as a primary data source. These data were delineated from an 1857 United States Coast Survey Map.</procdesc>
+                <procdate>20070801</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Steve Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>800 S White Horse Pike, PO Box 579</address>
+                            <city>Hammonton</city>
+                            <state>NJ</state>
+                            <postal>08037-2019</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>(800) 924-0482</cntvoice>
+                        <cntfax>(609) 704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                        <hours>8-5</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>State-certified digital tax map data were used as a primary data source. State-certified digital tax map data is presumed to have a higher level of accuracy than digital parcel data. These data were used to delineate municipal boundaries where they could not be derived from other primary data sources.</procdesc>
+                <procdate>20080115</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Steve Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>800 S White Horse Pike, PO Box 579</address>
+                            <city>Hammonton</city>
+                            <state>NJ</state>
+                            <postal>08037-2019</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>(800) 924-0482</cntvoice>
+                        <cntfax>(609) 704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                        <hours>8-5</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Data delineated to connect shorelines across the outlet of a river to a bay or the ocean, or across the outlet of a bay to the ocean were developed for the project. These data were interpreted from NJ Office of Information Technology, Office of GIS (NJOGIS) 2002 orthophotography (+/-4 feet). Outlet delineations were integrated where known to be coincident with municipal boundaries as shown on municipal tax maps.</procdesc>
+                <procdate>20080215</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Steve Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>800 S White Horse Pike, PO Box 579</address>
+                            <city>Hammonton</city>
+                            <state>NJ</state>
+                            <postal>08037-2019</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>(800) 924-0482</cntvoice>
+                        <cntfax>(609) 704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                        <hours>8-5</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Data delineated to represent the centerline of the Delaware River were developed for the project. An inventory of Delaware River islands with state jurisdiction was developed from information in "The Story Of New Jersey's Civil Boundaries 1606 - 1968" by John F. Snyder, Bureau of Geology and Topography, Trenton, New Jersey, 1969. Using this information, a delineation was generated to represent the centerline of the Delaware River from the New Jersey/New York border to the 12 mile circle at the New Jersey/Delaware border. The delineation of the centerline of the Delaware River was generated by manually digitizing the river's visible shorelines, interpreted from NJ Office of Information Technology, Office of GIS (NJOGIS) 2002 orthophotography (+/-4 feet). A centerline was generated from the shorelines utilizing the DUAL COLLAPSE command in ArcGIS ArcInfo 9.2. Using the automated centerline as a guide, the final delineation was manually digitized to provide a smoother, more visually suitable centerline. The centerline of the Delaware River represents the boundary between New Jersey and Pennsylvania. These data were used to represent municipal boundaries coincident with the river centerline as shown on municipal tax maps.</procdesc>
+                <procdate>20080301</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Steve Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>800 S White Horse Pike, PO Box 579</address>
+                            <city>Hammonton</city>
+                            <state>NJ</state>
+                            <postal>08037-2019</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>(800) 924-0482</cntvoice>
+                        <cntfax>(609) 704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                        <hours>8-5</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems municipality boundaries (stmun) data digitized from various United States Geological Survey topographic maps were integrated where there was a lack of available or adequate alternative source information and data.</procdesc>
+                <procdate>20080331</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Steve Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>800 S White Horse Pike, PO Box 579</address>
+                            <city>Hammonton</city>
+                            <state>NJ</state>
+                            <postal>08037-2019</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>(800) 924-0482</cntvoice>
+                        <cntfax>(609) 704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                        <hours>8-5</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>A QAQC process was undertaken with County GIS Coordinators to review the draft data and report linework needing modification. All counties, except for Middlesex, participated in this process. Modifications were made in several of the counties. Consequently, all County GIS Coordinators were satisfied with the outcome.</procdesc>
+                <procdate>20080401</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Steve Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>800 S White Horse Pike, PO Box 579</address>
+                            <city>Hammonton</city>
+                            <state>NJ</state>
+                            <postal>08037-2019</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>(800) 924-0482</cntvoice>
+                        <cntfax>(609) 704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                        <hours>8-5</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Polygons were built from the NJOGIS Municipal Boundaries of New Jersey (nj_munis_arcs) line layer in ArcCatalog using the POLYGON FEATURE CLASS FROM LINES command with the default cluster tolerance of 0.003 US survey feet. Municipalities with multiple disconnected areas were created as multi-part polygons. A spatial join was created with the centroids of the NJDEP municipality boundaries (stmun) layer as a quality control check. An examination of the attribute table ensured that each polygon contained a single centroid and any errors were resolved. A topology rule set was also built to ensure there were no gores (gaps) or overlaps between polygons.</procdesc>
+                <procdate>20080402</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Stephen Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>800 S White Horse Pike, PO Box 579</address>
+                            <city>Hammonton</city>
+                            <state>New Jersey</state>
+                            <postal>08037-2019</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>800-924-0482</cntvoice>
+                        <cntfax>609-704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                        <hours>Monday-Friday 8:00 AM-5:00 PM</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Attributes were added to the attribute table. Values in the MUN_CODE field were populated based on the NJ1040 codes. The ACRES and SQ_MILES fields were recalculated based on SHAPE_AREA. In addition, POPDEN2000, POPDEN1990, and POPDEN1980 were recalculated based on the updated number of square miles in the SQ_MILES field. All municipal name changes are current to January 2008. Attributes for Geographical Naming Information System (GNIS) codes and names were thoroughly reviewed in collaboration with GNIS-US Geological Survey and US Census Bureau representatives. No formal accuracy testing was performed to qualify or validate attribute data. All other attribute information was carried over from the most current NJDEP municipality boundaries (stmun) layer and is assumed correct.</procdesc>
+                <procdate>20080403</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Stephen Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>800 S White Horse Pike, PO Box 579</address>
+                            <city>Hammonton</city>
+                            <state>New Jersey</state>
+                            <postal>08037-2019</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>800-924-0482</cntvoice>
+                        <cntfax>609-704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                        <hours>Monday-Friday 8:00 AM-5:00 PM</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Data adjusted from original New Jersey Department of Transportation road centerlines, or delineated from railroad lines or other photo-identifiable features, interpreted from NJ Office of Information Technology, Office of GIS (NJOGIS) 2002 orthophotography (+/-4 feet) were developed for the project. These data were integrated where known to be coincident with municipal boundaries as shown on municipal tax maps.</procdesc>
+                <procdate>20080501</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Steve Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>800 S White Horse Pike, PO Box 579</address>
+                            <city>Hammonton</city>
+                            <state>NJ</state>
+                            <postal>08037-2019</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>(800) 924-0482</cntvoice>
+                        <cntfax>(609) 704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                        <hours>8-5</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>A null value polygon sliver measuring approximately 0.5 square feet was removed from Burlington County. It is assumed this data artifact developed during processing the data set from lines (arcs) to polygons. The data set was visually checked for possible additional slivers and none were found.</procdesc>
+                <procdate>20080627</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NNJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Douglas M. Schleifer</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7594</cntvoice>
+                        <cntemail>doug.schleifer@oit.state.nj.us</cntemail>
+                        <hours>9-4</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Digital parcel data were used to delineate municipal boundaries where they could not be derived from primary data sources.</procdesc>
+                <procdate>20090130</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Steve Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>800 S White Horse Pike, PO Box 579</address>
+                            <city>Hammonton</city>
+                            <state>NJ</state>
+                            <postal>08037-2019</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>(800) 924-0482</cntvoice>
+                        <cntfax>(609) 704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                        <hours>8-5</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>As a component of the New Jersey Office of Information Technology, Office of GIS (NJOGIS) Parcels Normalization Project in 2008-2010, parcels boundaries were modified to match municipal, county and state boundaries data developed by NJOGIS in 2008 where those boundaries were coincident. During this process, modifications were made to the municipal, county and state boundaries data sets to improve spatial and temporal accuracy where research was necessary to resolve boundary conflicts, and in areas where higher quality data became available subsequent to the 2008 boundaries data release.</procdesc>
+                <procdate>20100201</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Steve Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>800 S White Horse Pike, PO Box 579</address>
+                            <city>Hammonton</city>
+                            <state>NJ</state>
+                            <postal>08037-2019</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>(800) 924-0482</cntvoice>
+                        <cntfax>(609) 704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                        <hours>8-5</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Supported by tax map documentation, a modification was made to the municipal (and county) boundary along the east shoreline of Osborne Pond between Bernards Township in Somerset County and Harding Township in Morris County. The modification was made by the NJ Office of Information Technology, Office of GIS (NJOGIS) in consultation with both municipalities and counties. It was reported by the US Census Bureau to NJOGIS in July 2010 that the delineation in the statewide municipal boundaries dataset was inconsistent with the municipal boundary submitted by Harding Township as part of the the Local Update of Census Addresses (LUCA) program. It was subsequently determined that the cause for the incorrect statewide municipal boundaries delineation was an incorrect delineation of a parcel (Harding Township, Block 48.01 Lot 8) in the statewide composite of parcels data (for which the parcels data were used as source data for the municipal boundaries). The west boundary of the parcel is a segment of the municipal boundary along the east shoreline of Osborne Pond. The change to Block 48.01 Lot 8 necessitated a modification to four contiguous parcels (Harding Township, Block 48.01, Lots 4, 5, 7 and Block 52, Lot 2) in Harding Township along the east shoreline of Osborne Pond. Since the west boundaries of Block 48.01, Lots 4, 5, 7 and Block 52, Lot 2 are also segments of the municipal boundary, the municipal boundary was modified to match the change to the parcels. Two Bernards Township parcels (Block 804, Lot 17 and Block 1701, Lot 1) in the statewide composite of parcels data were also modified to be consistent with the change to the municipal boundary and Harding Township parcels.</procdesc>
+                <procdate>20100901</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Steve Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>800 S White Horse Pike, PO Box 579</address>
+                            <city>Hammonton</city>
+                            <state>NJ</state>
+                            <postal>08037-2019</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>(800) 924-0482</cntvoice>
+                        <cntfax>(609) 704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                        <hours>8-5</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>In Monmouth County, an area including the Pine View subdivision was annexed to Howell Township from Wall Township in 2005 by Ordinance 05-316. Referencing the scanned 2010 Wall Tax Map, sheet 74, the municipal boundary was modified to reflect the annexation.</procdesc>
+                <procdate>20101102</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Steve Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>800 S White Horse Pike, PO Box 579</address>
+                            <city>Hammonton</city>
+                            <state>NJ</state>
+                            <postal>08037-2019</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>(800) 924-0482</cntvoice>
+                        <cntfax>(609) 704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                        <hours>8-5</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>MUN_CODE values corrected to match values published by the NJ Dept of the Treasury, Division of Taxation, in 2010 tax form 1040 instructions, as follows: Eagleswood Twp, Ocean County was 1508, now is 1509 Toms River Twp, Ocean County was 1509, now is 1508</procdesc>
+                <procdate>20110111</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Douglas M. Schleifer</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7594</cntvoice>
+                        <cntemail>doug.schleifer@oit.state.nj.us</cntemail>
+                        <hours>M-F 9-4</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>A modification was made to the Lacey Township/Ocean Township boundary at Oyster Creek where the creek channel was significantly altered to service the Oyster Creek nuclear power plant. The boundary, which was erroneously delineated as the centerline of the altered creek channel, was modified to a delineation of the creek centerline before it was altered to service the power plant, in the area within close proximity to the US Route 9 bridge over Oyster Creek. These changes were confirmed with tax maps from both municipalities.</procdesc>
+                <procdate>20110201</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Steve Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>800 S White Horse Pike, PO Box 579</address>
+                            <city>Hammonton</city>
+                            <state>NJ</state>
+                            <postal>08037-2019</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>(800) 924-0482</cntvoice>
+                        <cntfax>(609) 704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                        <hours>8-5</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>A modification was made to the easternmost extent of the Lacey Township/Ocean Township boundary over Barnegat Bay. The boundary was fixed slightly southward to bisect a small group of islands off the shoreline of Berkeley Township (on the bay side of Island Beach State Park just to the northeast of Sedge Islands). The northern sections of these islands are located in Lacey Township and the southern sections are located in Ocean Township.</procdesc>
+                <procdate>20110202</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Steve Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>800 S White Horse Pike, PO Box 579</address>
+                            <city>Hammonton</city>
+                            <state>NJ</state>
+                            <postal>08037-2019</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>(800) 924-0482</cntvoice>
+                        <cntfax>(609) 704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                        <hours>8-5</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>A modification was made to the Seaside Heights Borough/Toms River Township boundary over Barnegat Bay. The boundary surrounding a group of islands (Al's Island, Bill's Island, Jones Island, Mike's Island and Wilde's Island just north of the NJ Route 37 bridge) in Seaside Heights Borough was corrected.</procdesc>
+                <procdate>20110203</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Steve Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>800 S White Horse Pike, PO Box 579</address>
+                            <city>Hammonton</city>
+                            <state>NJ</state>
+                            <postal>08037-2019</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>(800) 924-0482</cntvoice>
+                        <cntfax>(609) 704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                        <hours>8-5</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>A GNIS civil code value was revised by the USGS Bureau of Geographic Names, as follows: Saddle Brook Township, Bergen County was 1729721, now 882308.</procdesc>
+                <procdate>20110204</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Douglas M. Schleifer</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7594</cntvoice>
+                        <cntemail>doug.schleifer@oit.state.nj.us</cntemail>
+                        <hours>M-F 9-4</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>An update to parcel boundaries in Marlboro Township in Monmouth County necessitated a change to the municipal boundary (and the Monmouth/Middlesex County boundary). The change also affected the boundaries of the adjacent municipalities of Aberdeen and Manalapan Townships in Monmouth County, and Old Bridge Township in Middlesex County. The change was up to approximately 20 feet for Marlboro, Manalapan and Old Bridge Townships, and up to approximately 0.25 feet for Aberdeen Township.</procdesc>
+                <procdate>20110501</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Steve Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>800 S White Horse Pike, PO Box 579</address>
+                            <city>Hammonton</city>
+                            <state>NJ</state>
+                            <postal>08037-2019</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>(800) 924-0482</cntvoice>
+                        <cntfax>(609) 704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                        <hours>8-5</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>An update was made to the Woodbridge Township municipal boundary (which necessitated a change to the Middlesex County boundary). The municipal (and county) boundary along the Arthur Kill was represented to extend out to the middle of the river to coincide with the state boundary. However, the municipal (and county) boundary was changed to coincide with the shoreline, based on a preponderance of supporting information. The Woodbridge Township boundary is described as the shoreline in The Story of New Jersey's Civil Boundaries 1606 - 1968. Tax maps indicate that riparian grants were conveyed to a Pierhead Line extending out to the middle of the Arthur Kill, which approximates the state boundary and is likely the source of any ambiguity regarding the municipal (and county) boundary. In addition, boundaries for all other municipalities in New Jersey along the Arthur Kill coincide with the shoreline.</procdesc>
+                <procdate>20110502</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Steve Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>800 S White Horse Pike, PO Box 579</address>
+                            <city>Hammonton</city>
+                            <state>NJ</state>
+                            <postal>08037-2019</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>(800) 924-0482</cntvoice>
+                        <cntfax>(609) 704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                        <hours>8-5</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>A correction was made to the municipal boundary between Newark and Bloomfield Township at the intersection of Bloomfield Avenue and Heckel Street. A short boundary segment was moved to the NJDOT road centerline to be consistent with adjacent municipal boundaries.</procdesc>
+                <procdate>20110503</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Steve Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>800 S White Horse Pike, PO Box 579</address>
+                            <city>Hammonton</city>
+                            <state>NJ</state>
+                            <postal>08037-2019</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>(800) 924-0482</cntvoice>
+                        <cntfax>(609) 704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                        <hours>8-5</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Due to municipal boundary changes, ACRES and SQ_MILES fields were recalculated based on SHAPE_AREA. POPDEN2000, POPDEN1990, and POPDEN1980 were recalculated based on the updated square mile values.</procdesc>
+                <procdate>20110504</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Steve Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>800 S White Horse Pike, PO Box 579</address>
+                            <city>Hammonton</city>
+                            <state>NJ</state>
+                            <postal>08037-2019</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>(800) 924-0482</cntvoice>
+                        <cntfax>(609) 704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                        <hours>8-5</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>An attribute field was added for the 2010 Census code (known as the FIPS code in previous census), to accommodate code changes to Lake Como Borough (formerly South Belmar Borough) and Toms River Township (formerly Dover Township) in Ocean County, and Robbinsville Township (formerly Washington Township) in Mercer County. Codes for all other municipalities remain the same. The new attribute field name is CENSUS2010.</procdesc>
+                <procdate>20110505</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Douglas M. Schleifer</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7594</cntvoice>
+                        <cntemail>doug.schleifer@oit.state.nj.us</cntemail>
+                        <hours>M-F 9-4</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>2010 population (POP2010) and population density (POPDEN2010) were added to the attribute table. Population totals are from the 2010 US Census. Population density totals were calculated using square mileage (SQ_MILES) totals from the attribute table.</procdesc>
+                <procdate>20110606</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Douglas M. Schleifer</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7594</cntvoice>
+                        <cntemail>doug.schleifer@oit.state.nj.us</cntemail>
+                        <hours>M-F 9-4</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>2010 Census code changes were made to Caldwell Borough in Essex County, and Woodland Park Borough (formerly West Paterson Borough) in Passaic County. The reason for the code change to Caldwell Borough in 2004 is unknown.</procdesc>
+                <procdate>20110606</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Douglas M. Schleifer</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7594</cntvoice>
+                        <cntemail>doug.schleifer@oit.state.nj.us</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>A correction was made to the municipal/county boundary between Clifton in Passaic County and Garfield Borough in Bergen County coincident with the centerline of the Passaic River, just south of the Garden State Parkway. A boundary segment sourced from an NJDEP hydro centerline that did not represent the middle of the river was replaced by a segment through the middle of the river delineated from 2007 NJOIT orthophotos.</procdesc>
+                <procdate>20120103</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Yelena Pikovskaya</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7580</cntvoice>
+                        <cntemail>yelena.pikovskaya@oit.state.nj.us</cntemail>
+                        <hours>M-F 9-4</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>A correction was made to the municipality type (MUN_TYPE) attribute value for the City of Orange Township. Based upon information from the New Jersey Office of Legislative Services, corroborated by the City of Orange Township official web site, the municipality type was changed from Township to City.</procdesc>
+                <procdate>20120103</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Yelena Pikovskaya</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7580</cntvoice>
+                        <cntemail>yelena.pikovskaya@oit.state.nj.us</cntemail>
+                        <hours>M-F 9-4</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>The following changes were made to municipal boundaries in Cumberland County: Improvements to parcel boundaries along the Lawrence Township/Fairfield Township border in Cumberland County necessitated changes to the municipal boundary. The first change was made to the boundary north of County Route 692 to the municipal boundary with Millville. The second change was made south of County Route 692 to County Route 553. Modifications were made to the Stow Creek Township/Greenwich Township boundary in Cumberland County. The first change was necessitated by improvements to parcel boundaries at, and just east of, County Route 602. The second change was made to correct the boundary along Racoon Ditch (formerly Newport Creek) where the stream was impounded to form a lake just east of its confluence with Stow Creek. The correction utilizes a DEP hydro centerline, between the southern boundary of the lake and an island towards the western end of the lake, which approximates the old stream centerline delineated on municipal tax maps. It replaces the current DEP hydro centerline through the middle of the lake. A correction was made to the Commercial Township/Maurice River Township boundary in Cumberland County at the outlet of the Maurice River into Delaware Bay. The change was made to account for parcels that represent properties on small islands in the middle of the river in Maurice River Township. An improvement was made to the municipal/county boundary between Pittsgrove Township in Salem County and Vineland in Cumberland County. Segments sourced from parcel boundaries were replaced by an NJDEP hydro centerline segment and a 2007 NJOIT orthophoto delineated segment of a photo-identifiable water feature. The affected municipal/county boundary segments are coincident with the eastern boundaries of block 2502, lots 5.01, 7.01 and 17 in Pittsgrove Township, Salem County, and the western boundaries of block 2601, lots 14-18, and block 2608, lot 1 in Vineland, Cumberland County.</procdesc>
+                <procdate>20120103</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Yelena Pikovskaya</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7580</cntvoice>
+                        <cntemail>yelena.pikovskaya@oit.state.nj.us</cntemail>
+                        <hours>M-F 9-4</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Based upon newly surveyed parcels data, an improvement was made to the municipal boundary between Roxbury Township and Netcong Borough in Morris County, south from the municipal boundary with Stanhope Borough in Sussex County.</procdesc>
+                <procdate>20120103</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Yelena Pikovskaya</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7580</cntvoice>
+                        <cntemail>yelena.pikovskaya@oit.state.nj.us</cntemail>
+                        <hours>M-F 9-4</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Attribute values were re-calculated for area (ACREAGE and SQ_MILES) and 2010 population density (POPDEN2010).</procdesc>
+                <procdate>20120103</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Yelena Pikovskaya</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7580</cntvoice>
+                        <cntemail>yelena.pikovskaya@oit.state.nj.us</cntemail>
+                        <hours>M-F 9-4</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Spatially merged Princeton Borough and Princeton Township to create Princeton using the "Merge" tool in an edit session. Records were updated for the following attributes: *Municipal names - MUN, MUN_LABEL, MUN_TYPE, NAME and GNIS_NAME. *Municipal codes - GNIS, SSN, MUN_CODE, KEY and CENSUS2010. *Area - ACRES and SQ_MILES. The areas of Princeton Borough and Princeton Township were aggregated to calculate new totals for Princeton. *Population - POP1980, POP1990, POP2000 and POP2010. The populations of Princeton Borough and Princeton Township were aggregated to calculate new totals for Princeton. *Population density - POPDEN1980, POPDEN1990, POPDEN2000 and POPDEN2010. The aggregated population and area totals of Princeton Borough and Princeton Township were used to calculate new totals for Princeton.</procdesc>
+                <procdate>20121228</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Yelena Pikovskaya</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7580</cntvoice>
+                        <cntemail>yelena.pikovskaya@oit.state.nj.us</cntemail>
+                        <hours>9-4</hours>
+                        <cntinst>e-mail is preferred</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Corrections were made to the ACRES value for Pittsgrove Township and to MUN_LABEL for Woodstown Borough in Salem County.</procdesc>
+                <procdate>20130318</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Douglas M. Schleifer</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7594</cntvoice>
+                        <cntemail>doug.schleifer@oit.state.nj.us</cntemail>
+                        <hours>M-F 9-4</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Spatial corrections were made to the Camden/Burlington county boundary at Voorhees, Berlin, and Evesham Townships, and to the boundary between Voorhees and Berlin Townships in Camden County. Orthophoto imagery of 2012 and digital tax maps were used for references. A small correction was made to the boundary between Hoboken and Jersey City in Hudson County.</procdesc>
+                <procdate>20130624</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Yelena Pikovskaya</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7580</cntvoice>
+                        <cntemail>yelena.pikovskaya@oit.state.nj.us</cntemail>
+                        <hours>M-F 9-4</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>A modification was made to the municipal boundary between Toms River Township and Lavallette Borough in Ocean County. Due to an annexation agreement between the municipalities in 2009, the properties along Beach Bay Way, which had previously been within the jurisdiction of Toms River Township, came within the jurisdiction of Lavallette Borough. The post-annexation boundary line begins at the intersection of the pier head line running in a northeasterly direction behind Block 1113 and Block 1115, as shown on Lavallette Tax Map Sheet #6 and the pier head line running in a northerly/southerly direction westerly of Lot 69, Block 1116.01 to the centerline of the lagoon, then easterly along said lagoon to the point of intersection with the lagoon centerline and the extension of the westerly line of Toms River Township Block 943, Lot 4, then along the division line between Block 943, Lot 20 and Lot 4 to the westerly sideline of Route 35 South, then southerly along the sideline of Route 35 southbound to the northerly line of Block 1116.02, Lot 4, then easterly across Route 35 South.</procdesc>
+                <procdate>20131127</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Yelena Pikovskaya</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7580</cntvoice>
+                        <cntemail>yelena.pikovskaya@oit.state.nj.us</cntemail>
+                        <hours>M-F 9-4</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Spatial corrections were made to the municipal boundaries between Bridgewater, Warren and Bernards Townships in Somerset County. Hardcopy tax maps were used for reference.</procdesc>
+                <procdate>20131127</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Yelena Pikovskaya</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7580</cntvoice>
+                        <cntemail>yelena.pikovskaya@oit.state.nj.us</cntemail>
+                        <hours>M-F 9-4</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>A modification was made to the municipal boundary between EdisonTownship and Metuchen Borough in Middlesex County to conform to updated parcels data.</procdesc>
+                <procdate>20131212</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Yelena Pikovskaya</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7580</cntvoice>
+                        <cntemail>yelena.pikovskaya@oit.state.nj.us</cntemail>
+                        <hours>M-F 9-4</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Modifications were made to municipal boundaries within Camden County between Runnemede Borough and Barrington Borough to conform to updated parcels data, and between Chesilhurst Borough and Waterford Township to fix a topology error (gap).</procdesc>
+                <procdate>20140221</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Yelena Pikovskaya</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7580</cntvoice>
+                        <cntemail>yelena.pikovskaya@oit.state.nj.us</cntemail>
+                        <hours>M-F 9-4</hours>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>A municipal boundary change was made between East BrunswickTownship and Monroe Township in Middlesex County to conform to updated parcels data.</procdesc>
+                <procdate>20140305</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>Civil Solutions</cntorg>
+                            <cntper>Steve Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Client Manager</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing and physical</addrtype>
+                            <address>850 S. White Horse Pike</address>
+                            <city>Hammonton</city>
+                            <state>NJ</state>
+                            <postal>08037</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>(800) 924-0482 ext 225</cntvoice>
+                        <cntfax>(609) 704-8011</cntfax>
+                        <cntemail>seckh@arh-us.com</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>A municipal boundary changes was made between the following boundaries in Hunterdon County to conform to updated parcels data: Lebanon Township and Hampton Borough, Lebanon Township and Califon Borough, Kingwood Township and Frenchtown Borough, East Amwell Township and West Amwell Township, Tewksbury Township and Readington Township; Union Township and Franklin Township.</procdesc>
+                <procdate>20140613</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Yelena Pikovskaya</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7580</cntvoice>
+                        <cntemail>yelena.pikovskaya@oit.state.nj.us</cntemail>
+                        <hours>9-4</hours>
+                        <cntinst>e-mail is preferred</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Muncipal boundary changes were made based on recent annexation ordinances provided to NJOGIS by various counties and muncipalities. Updated municipalities are Madison Borough/Florham Park Borough (Morris), Wrightstown Borough/New Hanover Township (Burlington), Evesham Township/Medford Township (Burlington), and Atlantic Highlands Borough/Highlands Borough (Monmouth).</procdesc>
+                <procdate>20150513</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Patrick McDonald</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7552</cntvoice>
+                        <cntemail>patrick.mcdonald@oit.nj.gov</cntemail>
+                        <hours>M-F 9-4</hours>
+                        <cntinst>email preferred</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Corrections were made to municipal boundaries based on municipal tax maps. These corrections restored the municipal boundary to its original location (former stream) prior to artificial stream re-locations for flood control and highway projects. The affected municipalities are Millburn Township (Essex)/Chatham Borough (Morris), Green Brook Township (Somerset)/Dunellen Borough (Middlesex), and Green Brook Township (Somerset)/Middlesex Borough (Middlesex). Adjustments were made to the muncipal boundaries based on the municipal tax maps. Affected municipalities are North Wildwood/Wildwood (Cape May) and Egg Harbor City/Galloway Township (Atlantic). Municipal boundaries of Kinnelon Borough/Riverdale Borough updated to reflect1996 NJ Superior Court Ruling Docket No. F-9202-93.</procdesc>
+                <procdate>20150514</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Patrick McDonald</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7552</cntvoice>
+                        <cntemail>patrick.mcdonald@oit.nj.gov</cntemail>
+                        <hours>M-F 9-4</hours>
+                        <cntinst>email preferred</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Adjustments were made to municipal boundaries as part of the Essex County parcel edge matching project. Adjustments were based on Essex County parcels (submitted to NJOGIS in January, 2015), municiapl tax maps, and deed information from various parcels along boundary. The affected municipalities are Fairfield Township, North Caldwell Borough, Cedar Grove Township, Montclair Township, Glen Ridge Borough, Bloomfield Township, Nutley Township, Belleville Township, Newark, East Orange, City of Orange Township, West Orange Township, Livingston Township, Verona Township, Essex Fells Borough, Roseland Borough, West Caldwell Township, Caldwell Borough (all in Essex County), Little Falls Township, and Clifton (both in Passaic County).</procdesc>
+                <procdate>20150515</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Patrick McDonald</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7552</cntvoice>
+                        <cntemail>patrick.mcdonald@oit.nj.gov</cntemail>
+                        <hours>M-F 9-4</hours>
+                        <cntinst>email preferred</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Adjustments were made to municipal boundaries as part of the Essex County parcel edge matching project. Adjustments were based on Essex County parcels (submitted to NJOGIS in January, 2015), municiapl tax maps, and deed information from various parcels along boundary. The affected municipalities are Millburn Township, Maplewood Township, Irvington Township, City of Newark, City of East Orange, City of Orange Township, South Orange Village Township, Livingston Township, West Orange Township, and Belleville Township (Essex County); City of Summit, Springfield Township, Union Township, Hillside Township, and City of Elizabeth (Union County)</procdesc>
+                <procdate>20151020</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Patrick McDonald</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7552</cntvoice>
+                        <cntemail>patrick.mcdonald@oit.nj.gov</cntemail>
+                        <hours>M-F 9-4</hours>
+                        <cntinst>email preferred</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>The municipal boundaries for Elmer Borough, Upper Pittsgrove Township, and Pittsgrove Township were adjusted based on the recent Green Acres Survey for the Anthony Farm (Elmer Borough) and the muncipal tax maps for all three towns. The Green Acres Survey used shows a monument located on the municipal boundary between Elmer Borough and Upper Pittsgrove Township in NAD 83 NJ State Plane coordinates.</procdesc>
+                <procdate>20151021</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Patrick McDonald</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7552</cntvoice>
+                        <cntemail>patrick.mcdonald@oit.nj.gov</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Adjustments were made to the municipal boundaries for Asbury Park, Bardley Beach Boru=ough, Neptune Township, Avon-by-the-Sea Borough, Neptune City, Wall Township, and Tinton Falls Borough based municipal parcels, based on digital tax maps for Asbury Park, Bradley Beach Borough, and Neptune Township. There was a discrepancy (overlaping parcels) between Bradley Beach Brough and Neptune Township in the NW corner of Bradley Beach Borough, along the railroad. Based on the 2015 orthophotography, it appeared that the parcels for Bradley Beach Borough lined up with the railroad right-of-way, so the western line of the Bradley beach Borough parcels was used to update the municipal boundary. There was a discrepancy (overlapping parcels) between the Asbury Park and Neptune Township in the NE corner of Neptune Township. Based on the 2015 orthophotography, it appeared that the parcels for Asbury Park lined up with physical features better than the Neptune Township parcels, so the southern line of the Asbury Park parcels was used to update the municipal boundary.</procdesc>
+                <procdate>20160720</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Patrick McDonald</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7552</cntvoice>
+                        <cntemail>patrick.mcdonald@oit.nj.gov</cntemail>
+                        <hours>M-F 9-4</hours>
+                        <cntinst>email preferred</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>The  boundary between Wall Township and Manasquan Borough was adjusted based on the digital tax maps for Manasquan Borough.</procdesc>
+                <procdate>20170413</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Patrick McDonald</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Supervisor</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7552</cntvoice>
+                        <cntemail>Patrick.McDonald@tech.nj.gov</cntemail>
+                        <hours>M - F, 9am - 5pm</hours>
+                        <cntinst>Email is preferred.</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>The boundary line between Marlboro Township and Aberdeen Township was adjusted in the vincity of Llyod Road to State Highway 34 based on the Aberdeen tax maps, parcels and base map data.  The previous boundary was based on digital tax maps for Marlboro Township that conflicted with the base map data.</procdesc>
+                <procdate>20171101</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Patrick McDonald</cntper>
+                        </cntorgp>
+                        <cntpos>GIS Supervisor</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7552</cntvoice>
+                        <cntemail>Patrick.McDonald@tech.nj.gov</cntemail>
+                        <hours>M - F, 9am - 5pm</hours>
+                        <cntinst>Email is preferred.</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>Working in conjunction with the New York State Information Technology services (NYITS), the New Jersey Office of GIS (NJOGIS), extended the NY/NJ northern boundary line further into the Delaware River, near Port Jervis, NY, to line up with the previously agreed to line between Pennsylvania and New York State.  For the rest of the NY/NJ boundary line, New York State adopted the boundary as represented by New Jersey.  County boundaries were adjusted to conform to state boundary.</procdesc>
+                <procdate>20191219</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Patrick McDonald, GISP</cntper>
+                        </cntorgp>
+                        <cntpos>Supervisor, Spatial Data Development</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7552</cntvoice>
+                        <cntemail>Patrick.McDonald@tech.nj.gov</cntemail>
+                        <hours>M - F, 9am - 5pm</hours>
+                        <cntinst>Email is preferred.</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>The New Jersey Office of GIS (NJOGIS) worked in conjunction with the Pennsylvania Department of Transportation (PennDOT) to create a coincident boundary between NJ/PA in the Delaware River. After examining both boundaries, both parties agreed to a process of generating a new boundary line.  Using the most recent NJ Department of Environmental Protection's (NJDEP) Delaware River Shorelines feature class, cross-section lines, and the island inventory from the 18th century bi-state commission's annexation reports, NJOGIS generated a new boundary between NJ/PA.  This new line was reviewed PennDOT, and any disagreements were approved by both states.  County boundaries were adjusted to conform to state boundary.</procdesc>
+                <procdate>20191219</procdate>
+                <proctime>000030</proctime>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Patrick McDonald, GISP</cntper>
+                        </cntorgp>
+                        <cntpos>Supervisor, Spatial Data Development</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609-376-7552</cntvoice>
+                        <cntemail>Patrick.McDonald@tech.nj.gov</cntemail>
+                        <hours>M - F, 9am - 5pm</hours>
+                        <cntinst>Email is preferred.</cntinst>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>The boundary between Clifton City and Woodland Park Borough in Passaic County was updated based on an annexation between the two municipalities with an ordinance adoption date December 21, 2005.  The municipal boundary line changes are along and within the Four Season at Great Notch residential community.</procdesc>
+                <procdate>20220118</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Stephen Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>Spatial Data Development Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609.376.7575</cntvoice>
+                        <cntemail>stephen.eckhardt@tech.nj.gov</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>A boundary line correction was made between Ringwood Borough and Wanaque Borough in Passaic County.  Based on the Ringwood tax maps, the boundary was adjusted to follow the old alignment of West Brook Rd intersecting Ridgewood Ave.  Aerial imagery and orthophotography were used to determine the best fit location of the adjusted municipal boundary line.</procdesc>
+                <procdate>20220119</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Stephen Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>Spatial Data Development Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609.376.7575</cntvoice>
+                        <cntemail>stephen.eckhardt@tech.nj.gov</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>A boundary line adjustment was made between Pompton Lakes Borough and Ringwood Borough in Passaic County where the municipal boundary crosses Ringwood Ave.</procdesc>
+                <procdate>20220120</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Stephen Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>Spatial Data Development Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609.376.7575</cntvoice>
+                        <cntemail>stephen.eckhardt@tech.nj.gov</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>The municipal boundary between Vernon Township and Hardyston Township in Sussex County and West Milford Township in Passaic County was updated based on a new digital tax map that was created for Vernon Township.  The updated boundary between Vernon and West Milford also resolved a conflict between the older Vernon tax map and existing West Milford tax map.</procdesc>
+                <procdate>20220121</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Stephen Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>Spatial Data Development Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609.376.7575</cntvoice>
+                        <cntemail>stephen.eckhardt@tech.nj.gov</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>The boundary between Hanover Township and Parsippany-Troy Hills Township in Morris County was updated based on an annexation between the two municipalities with an ordinance adoption date of September 12, 2019.  The boundary change is located to the west of where the municipal boundary crosses State Route 10.</procdesc>
+                <procdate>20220124</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Stephen Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>Spatial Data Development Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609.376.7575</cntvoice>
+                        <cntemail>stephen.eckhardt@tech.nj.gov</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>The municipality of Pine Valley Borough in Camden County was consolidated into Pine Hill Borough effective 1/1/2022.  The municipal code (MUN_CODE) for Pine Valley of 0429 will no longer be in use while the municipal code for Pine Hill remains 0428.</procdesc>
+                <procdate>20220125</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Stephen Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>Spatial Data Development Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609.376.7575</cntvoice>
+                        <cntemail>stephen.eckhardt@tech.nj.gov</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>A municipal boundary line correction was made between Monroe Township and Spotswood Borough in Middlesex County to the east of McFadden Dr and Mayberry Ave.  The boundary was adjusted to follow an adjacent NJDEP stream centerline which closely aligns with both municipal tax maps.  This adjustment allowed for Spotswood parcel Block 111.13 to no longer fall outside of the Spotswood municipal boundary.</procdesc>
+                <procdate>20220126</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Stephen Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>Spatial Data Development Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609.376.7575</cntvoice>
+                        <cntemail>stephen.eckhardt@tech.nj.gov</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+            <procstep>
+                <procdesc>2020 population (POP2020) and population density (POPDEN2020) were added to the attribute table.  Population totals are from the 2020 US Census.  Population density totals were calculated using square mileage (SQ_MILES) values from the attribute table. 
+
+Due to multiple boundary changes, both the ACRES and SQ_MILES field values were recalculated based on SHAPE_AREA.  Subsequently, all population density fields were recalculated based on the updated SQ_MILES value.</procdesc>
+                <procdate>20220127</procdate>
+                <proccont>
+                    <cntinfo>
+                        <cntorgp>
+                            <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                            <cntper>Stephen Eckhardt</cntper>
+                        </cntorgp>
+                        <cntpos>Spatial Data Development Specialist</cntpos>
+                        <cntaddr>
+                            <addrtype>mailing</addrtype>
+                            <address>PO Box 212</address>
+                            <city>Trenton</city>
+                            <state>NJ</state>
+                            <postal>08625-0212</postal>
+                            <country>US</country>
+                        </cntaddr>
+                        <cntvoice>609.376.7575</cntvoice>
+                        <cntemail>stephen.eckhardt@tech.nj.gov</cntemail>
+                    </cntinfo>
+                </proccont>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>564</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>Govt_admin_municipal_bnd</enttypl>
+                <enttypd>Municipalities of New Jersey</enttypd>
+                <enttypds>NJ Office of Information Technology, Office of GIS (NJOGIS)</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MUN</attrlabl>
+                <attrdef>municipality name (capital letters)</attrdef>
+                <attrdefs>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>municipality name (capital letters)</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>COUNTY</attrlabl>
+                <attrdef>county name (capital letters)</attrdef>
+                <attrdefs>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>county name (capital letters)</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MUN_LABEL</attrlabl>
+                <attrdef>municipality name (for labels)</attrdef>
+                <attrdefs>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>municipality name (for labels)</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MUN_TYPE</attrlabl>
+                <attrdef>municipality type</attrdef>
+                <attrdefs>New Jersey Department of Environmental Protection, Bureau of Geographic Information Systems</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>municipality type</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NAME</attrlabl>
+                <attrdef>municipality name (for labels - without municipality type for cities and towns)</attrdef>
+                <attrdefs>NJ Office of Information Technology, Office of GIS (NJOGIS)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>municipality name (for labels - without municipality type for cities and towns)</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GNIS_NAME</attrlabl>
+                <attrdef>municipality name (GNIS)</attrdef>
+                <attrdefs>Bureau of Geographic Names - United States Geological Survey</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>municipality name (GNIS)</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GNIS</attrlabl>
+                <attrdef>GNIS civil code</attrdef>
+                <attrdefs>Bureau of Geographic Names - United States Geological Survey</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <codesetd>
+                                                						
+                        
+                        <codesetn>GNIS civil code</codesetn>
+                                                						
+                        
+                        <codesets>Bureau of Geographic Names - United States Geological Survey</codesets>
+                                                					
+                    
+                    </codesetd>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SSN</attrlabl>
+                <attrdef>State Standard Numeric code</attrdef>
+                <attrdefs>New Jersey Department of Community Affairs</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <codesetd>
+                                                						
+                        
+                        <codesetn>State Standard Numeric code</codesetn>
+                                                						
+                        
+                        <codesets>New Jersey Department of Community Affairs</codesets>
+                                                					
+                    
+                    </codesetd>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MUN_CODE</attrlabl>
+                <attrdef>municipal code (NJ-1040)</attrdef>
+                <attrdefs>New Jersey Department of Treasury, Division of Taxation</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <codesetd>
+                                                						
+                        
+                        <codesetn>municipal code (NJ-1040)</codesetn>
+                                                						
+                        
+                        <codesets>New Jersey Department of Treasury, Division of Taxation</codesets>
+                                                					
+                    
+                    </codesetd>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ACRES</attrlabl>
+                <attrdef>area of municipality in acres (calculated from square feet in attribute table)</attrdef>
+                <attrdefs>NJ Office of Information Technology, Office of GIS (NJOGIS)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <rdom>
+                                                						
+                        
+                        <rdommin>62.74</rdommin>
+                                                						
+                        
+                        <rdommax>72371.50</rdommax>
+                                                						
+                        
+                        <attrunit>acres</attrunit>
+                                                					
+                    
+                    </rdom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CENSUS2020</attrlabl>
+                <attrdef>Census state+county+municipal code</attrdef>
+                <attrdefs>United States Census Bureau</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <codesetd>
+                                                						
+                        
+                        <codesetn>Census state+county+municipal code</codesetn>
+                                                						
+                        
+                        <codesets>United States Census Bureau</codesets>
+                                                					
+                    
+                    </codesetd>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SQ_MILES</attrlabl>
+                <attrdef>area of municipality in square miles (calculated from square feet in attribute table)</attrdef>
+                <attrdefs>NJ Office of Information Technology, Office of GIS (NJOGIS)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <rdom>
+                                                						
+                        
+                        <rdommin>0.09</rdommin>
+                                                						
+                        
+                        <rdommax>113.08</rdommax>
+                                                						
+                        
+                        <attrunit>square miles</attrunit>
+                                                					
+                    
+                    </rdom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>POP2020</attrlabl>
+                <attrdef>population in 2020</attrdef>
+                <attrdefs>United States Census Bureau</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>population in 2020</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>POP2010</attrlabl>
+                <attrdef>population in 2010</attrdef>
+                <attrdefs>United States Census Bureau</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>population in 2010</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>POP2000</attrlabl>
+                <attrdef>population in 2000</attrdef>
+                <attrdefs>United States Census Bureau</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>population in 2000</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>POP1990</attrlabl>
+                <attrdef>population in 1990</attrdef>
+                <attrdefs>United States Census Bureau</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>population in 1990</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>POP1980</attrlabl>
+                <attrdef>population in 1980</attrdef>
+                <attrdefs>United States Census Bureau</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>population in 1980</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>POPDEN2020</attrlabl>
+                <attrdef>population density per square mile in 2020</attrdef>
+                <attrdefs>NJ Office of Information Technology, Office of GIS (NJOGIS)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>population density per square mile in 2020</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>POPDEN2010</attrlabl>
+                <attrdef>population density per square mile in 2010</attrdef>
+                <attrdefs>NJ Office of Information Technology, Office of GIS (NJOGIS)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>population density per square mile in 2010</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>POPDEN2000</attrlabl>
+                <attrdef>population density per square mile in 2000</attrdef>
+                <attrdefs>NJ Office of Information Technology, Office of GIS (NJOGIS)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>population density per square mile in 2000</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>POPDEN1990</attrlabl>
+                <attrdef>population density per square mile in 1990</attrdef>
+                <attrdefs>NJ Office of Information Technology, Office of GIS (NJOGIS)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>population density per square mile in 1990</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>POPDEN1980</attrlabl>
+                <attrdef>population density per square mile in 1980</attrdef>
+                <attrdefs>NJ Office of Information Technology, Office of GIS(NJOGIS)</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>population density per square mile in 1980</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE_Length</attrlabl>
+                <attrdef>Length of feature in internal units.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Positive real numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE_Area</attrlabl>
+                <attrdef>Area of feature in internal units squared.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Positive real numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>PO Box 212</address>
+                    <city>Trenton</city>
+                    <state>NJ</state>
+                    <postal>08625-0212</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>use email</cntvoice>
+                <cntemail>njgin@oit.nj.gov</cntemail>
+            </cntinfo>
+        </distrib>
+        <distliab>See General Constraints, Use Limitation (Use Constraints)</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>ArcGIS Online hosted feature layer - ArcREST</formname>
+                    <formspec>https://developers.arcgis.com/rest/services-reference/</formspec>
+                    <formcont>Streamed features</formcont>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>https://services2.arcgis.com/XVOqAjTOJ5P6ngMu/arcgis/rest/services</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>0.00</fees>
+            <ordering>Municipal boundaries are available as a hosted feature layer on ArcGIS Online, as a hosted Esri REST service, and as a zipped shapefile download and a zipped file geodatabase download from NJGIN Open Data. High-demand applications should use the ArcGIS Online hosted feature layer, or one of the download options: search for Municipal Boundaries of NJ, Hosted, 3424 on NJGIN Open Data. NJOGIS also hosts the data as a multi-layer Esri REST service at https://maps.nj.gov/arcgis/rest/services/Framework/Government_Boundaries/MapServer/2, for low-demand uses of georeferenced map image and query.The data also are available in Web Mercator projection.Users who require data that preserves true curves where applicable, should contact the distributor directly.</ordering>
+        </stdorder>
+        <availabl>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20200410</caldate>
+                </sngdate>
+            </timeinfo>
+        </availabl>
+    </distinfo>
+    <metainfo>
+        <metd>20220210</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>NJ Office of Information Technology, Office of GIS (NJOGIS)</cntorg>
+                    <cntper>Stephen Eckhardt</cntper>
+                </cntorgp>
+                <cntpos>Spatial Data Development Specialist</cntpos>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>PO Box 212</address>
+                    <city>Trenton</city>
+                    <state>NJ</state>
+                    <postal>08625-0212</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>609.376.7575</cntvoice>
+                <cntemail>stephen.eckhardt@tech.nj.gov</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+        <metsi>
+            <metscs>ARCGIS</metscs>
+            <metsc>Unclassified</metsc>
+            <metshd>no special handling required</metshd>
+        </metsi>
+    </metainfo>
+</metadata>

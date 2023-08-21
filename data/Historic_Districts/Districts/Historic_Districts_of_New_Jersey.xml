@@ -1,0 +1,1707 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20230111</pubdate>
+                <title>Historic Districts of New Jersey, Edition 20230111 (Land_use_HPO_district) (Web Mercator ArcGIS Online Service)</title>
+                <geoform>vector digital data</geoform>
+                <pubinfo>
+                    <pubplace/>
+                    <publish>New Jersey Department of Environmental Protection (NJDEP)</publish>
+                </pubinfo>
+                <onlink>https://www.nj.gov/dep/gis/digidownload/zips/OpenData/Land_use_HPO_district.zip</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Historic Districts possess a significant concentration, linkage, or continuity of buildings, sites, structures, or objects united historically or aesthetically by plan or physical development. This dataset represents the polygon boundaries of historic districts that: 1. Are National Historic Landmarks, 2. Are included in the New Jersey or National Registers of Historic Places, 3. Have been determined Eligible for inclusion in the registers through federal or state processes administered by the HPO, 4. Have been designated as Local Historic Districts by local government, or 5. Have been identified through cultural resource survey or other documentation on file at the HPO. The majority of features in the dataset represent categories 1, 2, and 3 above. HPO is still in the process of comprehensive digitizing for categories 4 and 5. Inclusion in this dataset does not preclude the existence of other historic districts as yet unidentified, unrecorded, or undocumented.</abstract>
+            <purpose>This data is produced and maintained by the HPO to provide accurate cultural resource information to government, regulated customers, and the public.</purpose>
+            <supplinf>The HPO has defined the following layers to represent cultural resources in GIS applications: Historic District Polygons, Historic Property Polygons, Archaeological Site Grid, and Cultural Resource Report Study Area Polygons These layers are developed maintained by the HPO, and are provided for informational purposes only. INSPECTION OF THESE DATA LAYERS DOES NOT CONSTITUTE IDENTIFICATION LEVEL CULTURAL RESOURCES SURVEY UNDER SECTION 106 OF THE NATIONAL HISTORIC PRESERVATION ACT OR OTHER LAW OR REGULATION. NOR DOES IT CONSTITUTE PROJECT REVIEW OR COMPLIANCE UNDER ANY STATE OF FEDERAL LAW.</supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <rngdates>
+                    <begdate>19661015</begdate>
+                    <enddate>20190129</enddate>
+                </rngdates>
+            </timeinfo>
+            <current>publication date</current>
+        </timeperd>
+        <status>
+            <progress>In work</progress>
+            <update>Continually</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-75.585097</westbc>
+                <eastbc>-73.899049</eastbc>
+                <northbc>41.345457</northbc>
+                <southbc>38.924592</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>ISO 19115 Topic Category</themekt>
+                <themekey>society</themekey>
+            </theme>
+            <theme>
+                <themekt>EPA GIS Keyword Thesaurus</themekt>
+                <themekey>Land Use</themekey>
+                <themekey>Historic</themekey>
+                <themekey>Preservation</themekey>
+            </theme>
+            <theme>
+                <themekt>User</themekt>
+                <themekey>NJDEP</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>New Jersey</placekey>
+            </place>
+        </keywords>
+        <accconst>Inquire at NJ Historic Preservation Office (HPO); Tel. 609-984-0176. In most cases, a downloadable shapefile (.zip) version of this layer is also available. Information to download the shapefile can be found in the Distribution Section of this metadata record. This data layer is shown in the NJDEP's NJ-GeoWeb mapping application accessible through the Online Linkage: http://www.nj.gov/dep/gis/geowebsplash.htm</accconst>
+        <useconst>New Jersey Department of Environmental Protection (NJDEP) Data Distribution Agreement. The data provided herein are distributed subject to the following conditions and restrictions: NJDEP assumes no responsibility to maintain them in any manner or form and disclaims any duty or obligation to either maintain availability of or to update the data. Terms of Agreement 1. All data is provided, as is, without any representation or warranty of any kind, implied, expressed or statutory including, but not limited to, the warranties of non-infringement of third party rights, title, merchantability or fitness for a particular use, freedom from computer virus nor are any such warranties to be implied with respect to the digital data layers furnished hereunder. User is responsible for understanding the accuracy limitations of all digital data layers provided herein, as documented in the accompanying cross-reference files (see SUPPLEMENTAL INFORMATION). Any reproduction or manipulation of the above data must ensure that the coordinate reference system remains intact. 2. Digital data received from the NJDEP may not be reproduced or redistributed without all the metadata provided. 3. Any maps, publications, reports, or other documents produced as a result of this project that utilize this digital data will credit the NJDEP's Geographic Information System (GIS) as the source of the data with the following credit/disclaimer: "This (map/publication/report) was developed using New Jersey Department of Environmental Protection Geographic Information System digital data, but this secondary product has not been verified by NJDEP and is not state-authorized or endorsed." 4. NJDEP makes no warranty that digital data are free of Copyright or Trademark claims or other restrictions or limitations on free use or display. Making a copy of this data may be subject to the copyright of trademark laws.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>NJDEP/DOIT/Bureau of GIS (Data Distribution)</cntorg>
+                </cntorgp>
+                <cntpos>NJDEP GIS Downloads</cntpos>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>401 East State Street</address>
+                    <city>Trenton</city>
+                    <state>NJ</state>
+                    <postal>08625</postal>
+                </cntaddr>
+                <cntvoice>609-777-0672</cntvoice>
+                <cntfax>609-292-7900</cntfax>
+                <cntemail>gisnet@dep.nj.gov</cntemail>
+                <cntinst>via email</cntinst>
+            </cntinfo>
+        </ptcontac>
+    </idinfo>
+    <dataqual>
+        <logic>Data was not field checked. Attributes reflect the date of the documentation on file at the HPO.</logic>
+        <complete>This data set includes data for all 21 counties in NJ. This dataset is not exclusionary; Other historic districts may exist which are as yet unidentified, unrecorded, or undocumented.</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>This data set should not be relied on for consistent horizontal positional accuracy. Because of its method of development accuracy of the locations varies considerably. The highest quality data have approximately the same accuracy as the New Jersey High Resolution Orthophotos. The lowest quality data may vary from their base map location by 100's of feet.</horizpar>
+            </horizpa>
+        </posacc>
+        <posacc>
+            <vertacc>
+                <vertaccr>No vertical positions are included in this data set.</vertaccr>
+            </vertacc>
+        </posacc>
+        <lineage>
+            <procstep>
+                <procdesc>Features in this dataset were created using a variety of sources and techniques. See DIGICODE attribute for Digitizing Source Codes</procdesc>
+                <procdate>20160419</procdate>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>1752</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>Land_use_HPO_district</enttypl>
+                <enttypd>Historic Districts of New Jersey</enttypd>
+                <enttypds>NJDEP/NHR/HPO</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Internal feature number.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Sequential unique whole numbers that are automatically generated.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ALT_NAME</attrlabl>
+                <attrdef>Alternate Cultural Resource Name</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Alternative name(s) of the resource as may appear in prior documentation or historic documents.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>BOUND_QUAL</attrlabl>
+                <attrdef>Boundary quality confidence code</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>HIGH</edomv>
+                                                						
+                        
+                        <edomvd>High</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>MEDIUM</edomv>
+                                                						
+                        
+                        <edomvd>Medium</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>LOW</edomv>
+                                                						
+                        
+                        <edomvd>Low</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>BUFFERDIST</attrlabl>
+                <attrdef>Buffer Distance Feet</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Distance used in creating buffered features (Feet)</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>COEDATE</attrlabl>
+                <attrdef>Certification of Eligibility Date</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Date of formal eligibility certification by the State Historic Preservation Officer</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DEMOLISHED</attrlabl>
+                <attrdef>Demolished</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>YES</edomv>
+                                                						
+                        
+                        <edomvd>Resource has been demolished or destroyed since originally documented</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>NO</edomv>
+                                                						
+                        
+                        <edomvd>Resource has not been demolished or destroyed since originally documented</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>UNK</edomv>
+                                                						
+                        
+                        <edomvd>Existence of resource cannote be established definitevely Yes or No</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DIGICODE</attrlabl>
+                <attrdef>GIS Digitizing Source Code</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>1</edomv>
+                                                						
+                        
+                        <edomvd>Scanned HPO USGS quads</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>2</edomv>
+                                                						
+                        
+                        <edomvd>Paper HPO USGS quads on digital raster quads</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>3</edomv>
+                                                						
+                        
+                        <edomvd>Paper HPO USGS quads on orthophotos</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>4</edomv>
+                                                						
+                        
+                        <edomvd>Paper maps on orthophotos</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>5</edomv>
+                                                						
+                        
+                        <edomvd>Geocoded address</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>6</edomv>
+                                                						
+                        
+                        <edomvd>NRIS UTM conversion</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>7</edomv>
+                                                						
+                        
+                        <edomvd>Digital parcel data</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>8</edomv>
+                                                						
+                        
+                        <edomvd>GPS data</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>9</edomv>
+                                                						
+                        
+                        <edomvd>Line buffer</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>10</edomv>
+                                                						
+                        
+                        <edomvd>Scanned paper tax maps</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>11</edomv>
+                                                						
+                        
+                        <edomvd>Municipal boundaries</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>12</edomv>
+                                                						
+                        
+                        <edomvd>NHDS streams</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>13</edomv>
+                                                						
+                        
+                        <edomvd>Point buffer</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>14</edomv>
+                                                						
+                        
+                        <edomvd>Elevation contours (various)</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>15</edomv>
+                                                						
+                        
+                        <edomvd>Scanned historic maps (various)</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>16</edomv>
+                                                						
+                        
+                        <edomvd>Other</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>17</edomv>
+                                                						
+                        
+                        <edomvd>Unknown</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DIGIDATE</attrlabl>
+                <attrdef>GIS Digitizing Date</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Date of delineation in GIS</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DIGIPOST</attrlabl>
+                <attrdef>GIS Digitizing Status</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>0</edomv>
+                                                						
+                        
+                        <edomvd>Initial draft</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>1</edomv>
+                                                						
+                        
+                        <edomvd>Revised draft</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>2</edomv>
+                                                						
+                        
+                        <edomvd>Replace feature</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>3</edomv>
+                                                						
+                        
+                        <edomvd>Replace attributes</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>4</edomv>
+                                                						
+                        
+                        <edomvd>Final - publish</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>5</edomv>
+                                                						
+                        
+                        <edomvd>Final - do not publish</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DIGISTAFF</attrlabl>
+                <attrdef>GIS Digitizing Staff</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>HPO digitizing staff reference (initials)</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DOEDATE</attrlabl>
+                <attrdef>Determination of Eligibility Date</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Date of formal Determination of Eligibility from the Keeper of the National Register of Historic Places, National Park Service</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>HSI_NUM</attrlabl>
+                <attrdef>HSI Number</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Historic Sites Inventory number from prior cultural resource planning survey (if applicable)</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>INV_ID</attrlabl>
+                <attrdef>SHPO Inventory Database ID Number</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>ID number for the resource record in the HPO inventory database. Applies only to listed or eligible  dstricts, or listed or eligible individual resources. This is a legacy attribute maintained for backwards compatiblity of the data. NJM_PRID, NJM_STID, and/or NJM_PIID should be used as the primary identifiers for the resource.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LOC_QUAL</attrlabl>
+                <attrdef>Location quality confidence code</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>HIGH</edomv>
+                                                						
+                        
+                        <edomvd>High</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>MEDIUM</edomv>
+                                                						
+                        
+                        <edomvd>Medium</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>LOW</edomv>
+                                                						
+                        
+                        <edomvd>Low</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LOC_RESTR</attrlabl>
+                <attrdef>Location Restricted</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>YES</edomv>
+                                                						
+                        
+                        <edomvd>Yes</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>NO</edomv>
+                                                						
+                        
+                        <edomvd>No</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>UNK</edomv>
+                                                						
+                        
+                        <edomvd>Unknown</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LOCALDATE</attrlabl>
+                <attrdef>Local Designation Date</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Date of local designation as historic by municipal entity</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MP_FORMAT</attrlabl>
+                <attrdef>Multiple Property Listing Format</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>THEME</edomv>
+                                                						
+                        
+                        <edomvd>Thematic National Register Nominations</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>MRA</edomv>
+                                                						
+                        
+                        <edomvd>Multiple Resource Area National Register Nominations</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>MPS</edomv>
+                                                						
+                        
+                        <edomvd>Multiple Property Submission (Multiple Property Documentation Format) National Register Nomination</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MP_NAME</attrlabl>
+                <attrdef>Multiple Property Listing Name</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Name of the multiple property listing that includes the resource</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NAME</attrlabl>
+                <attrdef>Cultural Resource Name</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Name of the resource as it appears in the nomination, documentation of eligibility, designation, or identification documents.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NHL</attrlabl>
+                <attrdef>National Historic Landmark</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>YES</edomv>
+                                                						
+                        
+                        <edomvd>Yes</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>NO</edomv>
+                                                						
+                        
+                        <edomvd>No</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>UNK</edomv>
+                                                						
+                        
+                        <edomvd>Unknown</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NHLDATE</attrlabl>
+                <attrdef>National Historic Landmark Date</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Date of designation as a National Historic Landmark</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NJEMS_PRID</attrlabl>
+                <attrdef>NJEMS_PRID</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Unique</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SRV_DATE</attrlabl>
+                <attrdef>Survey Date</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Date of inclusion in most recent cultural resource survey; Either the report date or the individual survey date recorded on the survey form for the resource</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NOTES</attrlabl>
+                <attrdef>Notes</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>General notes about the resource</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NR_CRIT</attrlabl>
+                <attrdef>National Register Criteria</attrdef>
+                <attrdefs>NPS</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>National Register criteria of significance (A B C and/or D); All appicable criteria are entered seperated by a single space.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NR_CRITCON</attrlabl>
+                <attrdef>National Register Critera Considerations</attrdef>
+                <attrdefs>NPS</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>National Register criteria considerations (A B C D E or F); All applicable criteria consideratios are entered seperated by a single space.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NRDATE</attrlabl>
+                <attrdef>National Register Date</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Date of  inclusion in the National Register of Historic Places</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NRIS_ID</attrlabl>
+                <attrdef>NRIS ID Number</attrdef>
+                <attrdefs>NPS</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>National Register Information System (NRIS) identification number, for properties included in the National Register</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>POS_BEG</attrlabl>
+                <attrdef>Period of Significance Begin</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Beginning of the resource's period of significance (Year: YYYY); Single point period of significance is recorded in this field.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>POS_END</attrlabl>
+                <attrdef>Period of Significance End</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>End of the resource's period of significance (Year: YYYY)</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHPODATE</attrlabl>
+                <attrdef>SHPO Opinion Date</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Date of formal eligibility opinion by the State Historic Preservation Officer</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SRDATE</attrlabl>
+                <attrdef>NJ Register Date</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Date of inclusion in the New Jersey Register of Historic Places</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SRV_ID</attrlabl>
+                <attrdef>Survey ID Number</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>ID number for the survey database record for most recent cultural resource survey</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SRV_MULT</attrlabl>
+                <attrdef>Prior Survey</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>YES</edomv>
+                                                						
+                        
+                        <edomvd>Yes</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>NO</edomv>
+                                                						
+                        
+                        <edomvd>No</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>UNK</edomv>
+                                                						
+                        
+                        <edomvd>Unknown</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SRV_NAME</attrlabl>
+                <attrdef>Survey Name</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Title of most recent cultural resource survey report</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SRV_REC</attrlabl>
+                <attrdef>Survey Recommendation</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Survey recommendation from most recent cultural resource survey</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SRV_SHLFCD</attrlabl>
+                <attrdef>Survey Shelf Code</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Shelf code for most recent cultural resource survey report</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DIGINOTE</attrlabl>
+                <attrdef>GIS Digitizing Note</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Notes about specific digitizing or delineation issues for the resource. General notes about the resource should be include in the NOTES attribute.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SRVDB_ID</attrlabl>
+                <attrdef>HPO Survey Database Resource ID Number</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>ID number for the resource record in the HPO architectural survey database. This is a legacy attribute maintained for backwards compatiblity of the data. NJM_PRID, NJM_STID, and/or NJM_PIID should be used as the primary identifiers for the resource.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SRVNJMPRID</attrlabl>
+                <attrdef>NJEMS Project ID Surveys</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>ID number for the Project record in the NJEMS database for the most recent cultural resource survey</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>STAT_UPDT</attrlabl>
+                <attrdef>Designation Status Update</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Date of last update to resource status</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>STATUS</attrlabl>
+                <attrdef>Designation Status</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>NHL</edomv>
+                                                						
+                        
+                        <edomvd>National Historic Landmark</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>LISTED</edomv>
+                                                						
+                        
+                        <edomvd>Listed in the New Jersey and/or National Registers of Historic Places</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>ELIGIBLE</edomv>
+                                                						
+                        
+                        <edomvd>Formally determined eligible for listing in the New Jersey and/or National Registers of Historic Places (SHPO Opinion, COE, DOE)</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>LOCALLY_DESIGNATED</edomv>
+                                                						
+                        
+                        <edomvd>Designated as an historic district by municipal ordinance.</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>DELISTED</edomv>
+                                                						
+                        
+                        <edomvd>Removed from NJ/National Registers</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+                <attrdomv>
+                                        					
+                    
+                    <edom>
+                                                						
+                        
+                        <edomv>NOT_ELIGIBLE</edomv>
+                                                						
+                        
+                        <edomvd>Formally determined not-elibile for listing in the New Jersey and/or Natonal Registers of Historic Places ONLY FOR RESOURCES FORMERLY OPINIONED AS ELIGIBLE NOW FORMALLY DE-OPINIONED</edomvd>
+                                                						
+                        
+                        <edomvds>NJDEP/NHR/HPO</edomvds>
+                                                					
+                    
+                    </edom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>X_COORD</attrlabl>
+                <attrdef>NJSP X Coordinate</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>X Coordinate Value (NAD83, NJSPF)</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Y_COORD</attrlabl>
+                <attrdef>NJSP Y Coordinate</attrdef>
+                <attrdefs>NJDEP/NHR/HPO</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Y Coordinate Value (NAD83, NJSPF)</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CREATED_USER (Alias: created_user)</attrlabl>
+                <attrdef>Created user</attrdef>
+                <attrdefs>NJDEP</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Editor tracking system user name for feature creation.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CREATED_DATE (Alias: created_date)</attrlabl>
+                <attrdef>Created date</attrdef>
+                <attrdefs>NJDEP</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Editor tracking system date for feature creation.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LAST_EDITED_USER (Alias: last_edited_user)</attrlabl>
+                <attrdef>Last edited user</attrdef>
+                <attrdefs>NJDEP</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Editor tracking system user name for feature edits.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LAST_EDITED_DATE (Alias: last_edited_date)</attrlabl>
+                <attrdef>Lasted edited date</attrdef>
+                <attrdefs>NJDEP</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Editor tracking system date for feature edits.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GLOBALID</attrlabl>
+                <attrdef>Unique identifier</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>unique</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.AREA</attrlabl>
+                <attrdef>Area of the feature</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Area in square feet</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.LEN</attrlabl>
+                <attrdef>Perimeter of the feature</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Perimeter in feet</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+        </detailed>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>NJDEP</cntorg>
+                    <cntper>NJDEP/DOIT/Bureau of GIS (Data Distribution)</cntper>
+                </cntorgp>
+                <cntpos>NJDEP GIS Downloads</cntpos>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>401 East State Street</address>
+                    <city>Trenton</city>
+                    <state>NJ</state>
+                    <postal>08625</postal>
+                </cntaddr>
+                <cntvoice>609-777-0672</cntvoice>
+                <cntfax>609-292-7900</cntfax>
+                <cntemail>gisnet@dep.nj.gov</cntemail>
+                <cntinst>via email</cntinst>
+            </cntinfo>
+        </distrib>
+        <resdesc>Downloadable Data</resdesc>
+        <distliab>See DEP Data Distribution Agreement</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>DEP distributes ESRI .SHP and/or GDB. Some data may be NJ GeoWeb "display only" layers.</formname>
+                    <formvern>latest version</formvern>
+                    <filedec>WinZip</filedec>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>http://www.nj.gov/dep/gis/geowebsplash.htm</networkr>
+                            </networka>
+                        </computer>
+                        <computer>
+                            <networka>
+                                <networkr>http://www.nj.gov/dep/gis/listall.html</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>https://gisdata-njdep.opendata.arcgis.com/</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>None</fees>
+            <ordering>All available NJDEP public GIS data can be downloaded for free. Some data shown in NJGeoWeb application may not yet be available for download due to various data or distribution issues. Please email gisnet@dep.state.nj.us with any data distribution questions.</ordering>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20230111</metd>
+        <metfrd>20171124</metfrd>
+        <metc>
+            <cntinfo>
+                <cntperp>
+                    <cntper>Clark, Kinney</cntper>
+                </cntperp>
+                <cntpos>Geographic Information Systems Specialist 2</cntpos>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>S Clinton &amp; E State Station Plaza, Bldg 5</address>
+                    <city>Trenton</city>
+                    <state>NJ</state>
+                    <postal>08625</postal>
+                </cntaddr>
+                <cntvoice>609-777-1865</cntvoice>
+                <cntemail>Kinney.Clark@dep.nj.gov</cntemail>
+                <cntinst>via email</cntinst>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
